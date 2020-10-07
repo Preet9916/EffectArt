@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"  crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+    
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body>
+
+        <div class="lb" >
+            <div class="banner">
+                <nav class="navbar navbar-expand-lg navbar-light p-3" style="opacity: 0.4;">
+                    <a href="h.html"><img src="logo.png"  alt="Logos" height="80px" width="90px" id="logo" ></a>  
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse w-100" id="navbarNavDropdown">
+                    <ul class="nav navbar-nav ml-auto  mr-5 mb-5">
+                        <li class="nav-item">
+                            <a href="" class="active link">Home</a>
+                        </li>
+                
+                        <li class="nav-item">
+                            <a class="link about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="link" href="">Contact Us</a>
+                        </li>   
+                        <li class="nav-item">
+                           <a class="link" href="">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="link" href="Signup.html">Signup</a>
+                        </li>
+                    </ul>
+                </div>
+          
+                </nav>
+            </div>
+                    </div>
+                   
+                        <div id="login">
+                            <form id="form" method="post">
+                                <a href="h.html"><span class="fa fa-remove" id="close"  style="cursor:pointer;font-size:25px;color:#d9534f;position:relative;left:220px;"></span></a>
+                                <h2 style="color: #d9534f">Login</h2><hr>
+                                <div class="form-group">
+                                        <label>Email address:</label>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                                       
+                                  </div>
+                                  <div class="form-group">	
+                                           <label for="password">Password:</label>
+                                          <input class="form-control" name="pwd" id="pwd" placeholder="Password" type="Password">
+                                  </div>
+                                  
+                                <button type="button" class="btn btn-danger login" name="submit" id="submit">Login</button>
+                            
+                            </form>
+                        </div>
+                
+        
+            
+               
+                
+                                                                                                               <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script>
+            $("document").ready(function(){
+                 $(".about").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#one").offset().top - 80
+    }, 1500);
+});
+            });
+        </script>
+
+
+                                                                </body>
+</html>
